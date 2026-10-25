@@ -1,0 +1,631 @@
+Serie,Fecha,Real,Periodo
+Total,2009-01-01,183505.59,Entrenamiento
+Total,2009-02-01,149426.25,Entrenamiento
+Total,2009-03-01,174237.23,Entrenamiento
+Total,2009-04-01,182842.49,Entrenamiento
+Total,2009-05-01,133194.67,Entrenamiento
+Total,2009-06-01,156292.13,Entrenamiento
+Total,2009-07-01,140089.28,Entrenamiento
+Total,2009-08-01,189382.19,Entrenamiento
+Total,2009-09-01,135790.19,Entrenamiento
+Total,2009-10-01,156825.97,Entrenamiento
+Total,2009-11-01,189158.16,Entrenamiento
+Total,2009-12-01,238031.59,Entrenamiento
+Total,2010-01-01,199130.99,Entrenamiento
+Total,2010-02-01,152599.56,Entrenamiento
+Total,2010-03-01,176632.79,Entrenamiento
+Total,2010-04-01,179655.1,Entrenamiento
+Total,2010-05-01,146392.54,Entrenamiento
+Total,2010-06-01,160401.54,Entrenamiento
+Total,2010-07-01,203255.91,Entrenamiento
+Total,2010-08-01,192892.44,Entrenamiento
+Total,2010-09-01,133847.89,Entrenamiento
+Total,2010-10-01,166234.54,Entrenamiento
+Total,2010-11-01,193720.09,Entrenamiento
+Total,2010-12-01,248135.49,Entrenamiento
+Total,2011-01-01,199120.59,Entrenamiento
+Total,2011-02-01,160806.85,Entrenamiento
+Total,2011-03-01,182584.31,Entrenamiento
+Total,2011-04-01,211761.74,Entrenamiento
+Total,2011-05-01,156728.35,Entrenamiento
+Total,2011-06-01,170083.36,Entrenamiento
+Total,2011-07-01,204325.66,Entrenamiento
+Total,2011-08-01,187854.68,Entrenamiento
+Total,2011-09-01,144432.69,Entrenamiento
+Total,2011-10-01,159566.87,Entrenamiento
+Total,2011-11-01,196650.5,Entrenamiento
+Total,2011-12-01,257540.52,Entrenamiento
+Total,2012-01-01,210834.31,Entrenamiento
+Total,2012-02-01,169001.27,Entrenamiento
+Total,2012-03-01,196093.11,Entrenamiento
+Total,2012-04-01,193661.75,Entrenamiento
+Total,2012-05-01,164972.46,Entrenamiento
+Total,2012-06-01,179413.47,Entrenamiento
+Total,2012-07-01,203982.72,Entrenamiento
+Total,2012-08-01,188092.51,Entrenamiento
+Total,2012-09-01,151540.55,Entrenamiento
+Total,2012-10-01,174443.96,Entrenamiento
+Total,2012-11-01,208257.75,Entrenamiento
+Total,2012-12-01,259521.72,Entrenamiento
+Total,2013-01-01,195440.52,Entrenamiento
+Total,2013-02-01,156393.09,Entrenamiento
+Total,2013-03-01,238388.64,Entrenamiento
+Total,2013-04-01,192705.51,Entrenamiento
+Total,2013-05-01,188955.56,Entrenamiento
+Total,2013-06-01,203522.44,Entrenamiento
+Total,2013-07-01,216160.62,Entrenamiento
+Total,2013-08-01,201934.62,Entrenamiento
+Total,2013-09-01,168085.25,Entrenamiento
+Total,2013-10-01,172476.98,Entrenamiento
+Total,2013-11-01,218786.42,Entrenamiento
+Total,2013-12-01,279319.33,Entrenamiento
+Total,2014-01-01,234446.54,Entrenamiento
+Total,2014-02-01,182721.75,Entrenamiento
+Total,2014-03-01,215178.73,Entrenamiento
+Total,2014-04-01,243823.9,Entrenamiento
+Total,2014-05-01,196933.52,Entrenamiento
+Total,2014-06-01,202425.35,Entrenamiento
+Total,2014-07-01,239373.69,Entrenamiento
+Total,2014-08-01,229607.77,Entrenamiento
+Total,2014-09-01,190814.11,Entrenamiento
+Total,2014-10-01,226630.01,Entrenamiento
+Total,2014-11-01,262353.29,Entrenamiento
+Total,2014-12-01,338293.3,Entrenamiento
+Total,2015-01-01,253275.0,Entrenamiento
+Total,2015-02-01,207976.5,Entrenamiento
+Total,2015-03-01,265027.28,Entrenamiento
+Total,2015-04-01,271468.5,Entrenamiento
+Total,2015-05-01,238063.3,Entrenamiento
+Total,2015-06-01,252348.0,Entrenamiento
+Total,2015-07-01,257182.0,Entrenamiento
+Total,2015-08-01,260587.5,Entrenamiento
+Total,2015-09-01,209004.5,Entrenamiento
+Total,2015-10-01,235018.0,Entrenamiento
+Total,2015-11-01,252959.5,Entrenamiento
+Total,2015-12-01,338732.5,Entrenamiento
+Total,2016-01-01,279291.0,Entrenamiento
+Total,2016-02-01,234618.0,Entrenamiento
+Total,2016-03-01,347084.0,Entrenamiento
+Total,2016-04-01,248439.0,Entrenamiento
+Total,2016-05-01,257081.0,Entrenamiento
+Total,2016-06-01,268068.66,Entrenamiento
+Total,2016-07-01,308371.76,Entrenamiento
+Total,2016-08-01,309030.0,Entrenamiento
+Total,2016-09-01,215265.4,Entrenamiento
+Total,2016-10-01,299690.0,Entrenamiento
+Total,2016-11-01,325923.0,Entrenamiento
+Total,2016-12-01,403355.02,Entrenamiento
+Total,2017-01-01,327088.22,Entrenamiento
+Total,2017-02-01,276842.88,Entrenamiento
+Total,2017-03-01,339725.37,Entrenamiento
+Total,2017-04-01,398107.93,Entrenamiento
+Total,2017-05-01,280611.38,Entrenamiento
+Total,2017-06-01,300218.79,Entrenamiento
+Total,2017-07-01,359006.57,Entrenamiento
+Total,2017-08-01,400119.02,Entrenamiento
+Total,2017-09-01,244041.3,Entrenamiento
+Total,2017-10-01,274807.1,Entrenamiento
+Total,2017-11-01,316608.24,Entrenamiento
+Total,2017-12-01,404283.5,Entrenamiento
+Total,2018-01-01,356933.89,Entrenamiento
+Total,2018-02-01,287123.43,Entrenamiento
+Total,2018-03-01,435064.0,Entrenamiento
+Total,2018-04-01,390488.66,Entrenamiento
+Total,2018-05-01,303919.76,Entrenamiento
+Total,2018-06-01,344009.85,Entrenamiento
+Total,2018-07-01,359320.84,Entrenamiento
+Total,2018-08-01,378651.77,Entrenamiento
+Total,2018-09-01,288075.09,Entrenamiento
+Total,2018-10-01,314775.25,Entrenamiento
+Total,2018-11-01,346802.55,Entrenamiento
+Total,2018-12-01,451183.58,Entrenamiento
+Total,2019-01-01,409070.18,Entrenamiento
+Total,2019-02-01,322067.58,Entrenamiento
+Total,2019-03-01,399233.16,Entrenamiento
+Total,2019-04-01,438126.03,Entrenamiento
+Total,2019-05-01,322838.72,Entrenamiento
+Total,2019-06-01,360723.62,Entrenamiento
+Total,2019-07-01,424549.23,Entrenamiento
+Total,2019-08-01,435156.22,Entrenamiento
+Total,2019-09-01,326378.55,Entrenamiento
+Total,2019-10-01,333222.58,Entrenamiento
+Total,2019-11-01,404633.88,Entrenamiento
+Total,2019-12-01,515820.45,Entrenamiento
+Total,2020-01-01,465740.17,Entrenamiento
+Total,2020-02-01,389261.63,Entrenamiento
+Total,2020-03-01,176870.29,Entrenamiento
+Total,2020-04-01,10039.0,Entrenamiento
+Total,2020-05-01,9779.0,Entrenamiento
+Total,2020-06-01,11817.0,Entrenamiento
+Total,2020-07-01,13484.0,Entrenamiento
+Total,2020-08-01,15357.0,Entrenamiento
+Total,2020-09-01,25389.53,Entrenamiento
+Total,2020-10-01,30538.52,Entrenamiento
+Total,2020-11-01,58632.0,Entrenamiento
+Total,2020-12-01,59432.0,Entrenamiento
+Total,2021-01-01,104620.0,Entrenamiento
+Total,2021-02-01,65463.0,Entrenamiento
+Total,2021-03-01,105145.05,Entrenamiento
+Total,2021-04-01,82067.87,Prueba
+Total,2021-05-01,79974.0,Prueba
+Total,2021-06-01,106436.0,Prueba
+Total,2021-07-01,108345.66,Prueba
+Total,2021-08-01,83251.0,Prueba
+Total,2021-09-01,74914.0,Prueba
+Total,2021-10-01,93745.0,Prueba
+Total,2021-11-01,116908.18,Prueba
+Total,2021-12-01,246898.0,Prueba
+Total,2022-01-01,151709.0,Prueba
+Total,2022-02-01,232198.4,Prueba
+Total,2022-03-01,296130.0,Prueba
+Total,2022-04-01,386778.0,Prueba
+Total,2022-05-01,356400.0,Prueba
+Total,2022-06-01,360283.0,Prueba
+Total,2022-07-01,397773.0,Prueba
+Total,2022-08-01,399193.0,Prueba
+Total,2022-09-01,348618.0,Prueba
+Total,2022-10-01,407715.0,Prueba
+Total,2022-11-01,453177.0,Prueba
+Total,2022-12-01,526190.0,Prueba
+Total,2023-01-01,291513.0,Prueba
+Total,2023-02-01,221331.0,Prueba
+Total,2023-03-01,279790.0,Prueba
+Total,2023-04-01,306654.0,Prueba
+Total,2023-05-01,239253.0,Prueba
+Total,2023-06-01,253270.0,Prueba
+Total,2023-07-01,275153.0,Prueba
+Total,2023-08-01,292862.0,Prueba
+Total,2023-09-01,247669.0,Prueba
+Total,2023-10-01,191304.0,Prueba
+Total,2023-11-01,284085.0,Prueba
+Total,2023-12-01,365825.0,Prueba
+Total,2024-01-01,333491.0,Prueba
+Total,2024-02-01,294530.0,Prueba
+Total,2024-03-01,349965.0,Prueba
+Total,2024-04-01,265183.0,Prueba
+Total,2024-05-01,265989.0,Prueba
+Total,2024-06-01,262613.0,Prueba
+Total,2024-07-01,295477.0,Prueba
+Total,2024-08-01,312497.0,Prueba
+Total,2024-09-01,239822.0,Prueba
+Total,2024-10-01,271571.0,Prueba
+Total,2024-11-01,318822.0,Prueba
+Total,2024-12-01,383916.0,Prueba
+Total,2025-01-01,306596.0,Prueba
+Total,2025-02-01,268365.0,Prueba
+Total,2025-03-01,299909.0,Prueba
+Total,2025-04-01,321074.0,Prueba
+Total,2025-05-01,270315.0,Prueba
+Total,2025-06-01,273826.0,Prueba
+Total,2025-07-01,307291.0,Prueba
+Total,2025-08-01,315572.0,Prueba
+Total,2025-09-01,236473.0,Prueba
+Total,2025-10-01,277299.0,Prueba
+Total,2025-11-01,328431.0,Prueba
+Total,2025-12-01,392087.0,Prueba
+Total,2026-01-01,319106.0,Prueba
+Total,2026-02-01,254048.0,Prueba
+Total,2026-03-01,311226.0,Prueba
+Total,2026-04-01,278199.0,Prueba
+Total,2026-05-01,260666.0,Prueba
+Total,2026-06-01,259391.0,Prueba
+Turista,2009-01-01,135041.75,Entrenamiento
+Turista,2009-02-01,102970.7,Entrenamiento
+Turista,2009-03-01,138196.04,Entrenamiento
+Turista,2009-04-01,142963.82,Entrenamiento
+Turista,2009-05-01,107033.78,Entrenamiento
+Turista,2009-06-01,129975.84,Entrenamiento
+Turista,2009-07-01,120238.13,Entrenamiento
+Turista,2009-08-01,152763.08,Entrenamiento
+Turista,2009-09-01,113473.01,Entrenamiento
+Turista,2009-10-01,132319.17,Entrenamiento
+Turista,2009-11-01,151304.31,Entrenamiento
+Turista,2009-12-01,189805.07,Entrenamiento
+Turista,2010-01-01,142795.83,Entrenamiento
+Turista,2010-02-01,105688.28,Entrenamiento
+Turista,2010-03-01,138100.53,Entrenamiento
+Turista,2010-04-01,141775.72,Entrenamiento
+Turista,2010-05-01,117453.05,Entrenamiento
+Turista,2010-06-01,133244.22,Entrenamiento
+Turista,2010-07-01,170213.88,Entrenamiento
+Turista,2010-08-01,156125.88,Entrenamiento
+Turista,2010-09-01,111427.61,Entrenamiento
+Turista,2010-10-01,135644.35,Entrenamiento
+Turista,2010-11-01,156863.44,Entrenamiento
+Turista,2010-12-01,195448.13,Entrenamiento
+Turista,2011-01-01,148190.93,Entrenamiento
+Turista,2011-02-01,108902.98,Entrenamiento
+Turista,2011-03-01,143552.49,Entrenamiento
+Turista,2011-04-01,154370.39,Entrenamiento
+Turista,2011-05-01,122931.95,Entrenamiento
+Turista,2011-06-01,137413.0,Entrenamiento
+Turista,2011-07-01,169416.35,Entrenamiento
+Turista,2011-08-01,148421.1,Entrenamiento
+Turista,2011-09-01,119224.22,Entrenamiento
+Turista,2011-10-01,130894.64,Entrenamiento
+Turista,2011-11-01,162870.52,Entrenamiento
+Turista,2011-12-01,209338.96,Entrenamiento
+Turista,2012-01-01,152837.76,Entrenamiento
+Turista,2012-02-01,112386.16,Entrenamiento
+Turista,2012-03-01,154704.54,Entrenamiento
+Turista,2012-04-01,145478.6,Entrenamiento
+Turista,2012-05-01,126080.3,Entrenamiento
+Turista,2012-06-01,145179.44,Entrenamiento
+Turista,2012-07-01,166496.71,Entrenamiento
+Turista,2012-08-01,143003.8,Entrenamiento
+Turista,2012-09-01,123304.6,Entrenamiento
+Turista,2012-10-01,140984.67,Entrenamiento
+Turista,2012-11-01,167456.84,Entrenamiento
+Turista,2012-12-01,202323.9,Entrenamiento
+Turista,2013-01-01,146485.17,Entrenamiento
+Turista,2013-02-01,105772.31,Entrenamiento
+Turista,2013-03-01,175628.04,Entrenamiento
+Turista,2013-04-01,147582.82,Entrenamiento
+Turista,2013-05-01,148953.34,Entrenamiento
+Turista,2013-06-01,165541.95,Entrenamiento
+Turista,2013-07-01,177040.05,Entrenamiento
+Turista,2013-08-01,166817.13,Entrenamiento
+Turista,2013-09-01,137826.07,Entrenamiento
+Turista,2013-10-01,141818.0,Entrenamiento
+Turista,2013-11-01,174254.02,Entrenamiento
+Turista,2013-12-01,222869.31,Entrenamiento
+Turista,2014-01-01,185334.47,Entrenamiento
+Turista,2014-02-01,146437.43,Entrenamiento
+Turista,2014-03-01,169335.76,Entrenamiento
+Turista,2014-04-01,198985.66,Entrenamiento
+Turista,2014-05-01,163273.96,Entrenamiento
+Turista,2014-06-01,174375.9,Entrenamiento
+Turista,2014-07-01,203605.56,Entrenamiento
+Turista,2014-08-01,182043.64,Entrenamiento
+Turista,2014-09-01,152275.84,Entrenamiento
+Turista,2014-10-01,178162.37,Entrenamiento
+Turista,2014-11-01,197122.17,Entrenamiento
+Turista,2014-12-01,259966.73,Entrenamiento
+Turista,2015-01-01,195364.88,Entrenamiento
+Turista,2015-02-01,155674.23,Entrenamiento
+Turista,2015-03-01,207842.19,Entrenamiento
+Turista,2015-04-01,211702.68,Entrenamiento
+Turista,2015-05-01,183886.59,Entrenamiento
+Turista,2015-06-01,198782.08,Entrenamiento
+Turista,2015-07-01,203935.23,Entrenamiento
+Turista,2015-08-01,198959.81,Entrenamiento
+Turista,2015-09-01,169841.82,Entrenamiento
+Turista,2015-10-01,193181.49,Entrenamiento
+Turista,2015-11-01,210543.34,Entrenamiento
+Turista,2015-12-01,283047.35,Entrenamiento
+Turista,2016-01-01,232425.26,Entrenamiento
+Turista,2016-02-01,187700.38,Entrenamiento
+Turista,2016-03-01,279937.13,Entrenamiento
+Turista,2016-04-01,179987.45,Entrenamiento
+Turista,2016-05-01,186322.54,Entrenamiento
+Turista,2016-06-01,201427.79,Entrenamiento
+Turista,2016-07-01,240849.05,Entrenamiento
+Turista,2016-08-01,231749.26,Entrenamiento
+Turista,2016-09-01,163755.82,Entrenamiento
+Turista,2016-10-01,220072.42,Entrenamiento
+Turista,2016-11-01,223169.72,Entrenamiento
+Turista,2016-12-01,290026.8,Entrenamiento
+Turista,2017-01-01,234710.29,Entrenamiento
+Turista,2017-02-01,199673.73,Entrenamiento
+Turista,2017-03-01,241667.62,Entrenamiento
+Turista,2017-04-01,303498.42,Entrenamiento
+Turista,2017-05-01,203347.3,Entrenamiento
+Turista,2017-06-01,197453.08,Entrenamiento
+Turista,2017-07-01,241611.21,Entrenamiento
+Turista,2017-08-01,213796.16,Entrenamiento
+Turista,2017-09-01,171054.73,Entrenamiento
+Turista,2017-10-01,198602.3,Entrenamiento
+Turista,2017-11-01,230918.23,Entrenamiento
+Turista,2017-12-01,288478.23,Entrenamiento
+Turista,2018-01-01,243702.66,Entrenamiento
+Turista,2018-02-01,199484.55,Entrenamiento
+Turista,2018-03-01,299707.08,Entrenamiento
+Turista,2018-04-01,236935.12,Entrenamiento
+Turista,2018-05-01,216947.46,Entrenamiento
+Turista,2018-06-01,239429.58,Entrenamiento
+Turista,2018-07-01,271128.09,Entrenamiento
+Turista,2018-08-01,266012.9,Entrenamiento
+Turista,2018-09-01,210085.89,Entrenamiento
+Turista,2018-10-01,231055.72,Entrenamiento
+Turista,2018-11-01,262473.44,Entrenamiento
+Turista,2018-12-01,332516.91,Entrenamiento
+Turista,2019-01-01,280595.48,Entrenamiento
+Turista,2019-02-01,206367.55,Entrenamiento
+Turista,2019-03-01,262214.8,Entrenamiento
+Turista,2019-04-01,292828.26,Entrenamiento
+Turista,2019-05-01,217694.7,Entrenamiento
+Turista,2019-06-01,238247.9,Entrenamiento
+Turista,2019-07-01,269881.55,Entrenamiento
+Turista,2019-08-01,250987.34,Entrenamiento
+Turista,2019-09-01,214342.94,Entrenamiento
+Turista,2019-10-01,220915.86,Entrenamiento
+Turista,2019-11-01,252912.17,Entrenamiento
+Turista,2019-12-01,344011.19,Entrenamiento
+Turista,2020-01-01,280836.73,Entrenamiento
+Turista,2020-02-01,219984.54,Entrenamiento
+Turista,2020-03-01,109750.87,Entrenamiento
+Turista,2020-04-01,10039.0,Entrenamiento
+Turista,2020-05-01,9779.0,Entrenamiento
+Turista,2020-06-01,11817.0,Entrenamiento
+Turista,2020-07-01,13484.0,Entrenamiento
+Turista,2020-08-01,15357.0,Entrenamiento
+Turista,2020-09-01,12219.49,Entrenamiento
+Turista,2020-10-01,14975.65,Entrenamiento
+Turista,2020-11-01,51926.0,Entrenamiento
+Turista,2020-12-01,47028.0,Entrenamiento
+Turista,2021-01-01,78623.0,Entrenamiento
+Turista,2021-02-01,49318.0,Entrenamiento
+Turista,2021-03-01,82703.4,Entrenamiento
+Turista,2021-04-01,56912.19,Prueba
+Turista,2021-05-01,69945.0,Prueba
+Turista,2021-06-01,87847.0,Prueba
+Turista,2021-07-01,93913.66,Prueba
+Turista,2021-08-01,69117.0,Prueba
+Turista,2021-09-01,62018.0,Prueba
+Turista,2021-10-01,74749.0,Prueba
+Turista,2021-11-01,92575.0,Prueba
+Turista,2021-12-01,198773.08,Prueba
+Turista,2022-01-01,127518.0,Prueba
+Turista,2022-02-01,171303.6,Prueba
+Turista,2022-03-01,199307.0,Prueba
+Turista,2022-04-01,233879.0,Prueba
+Turista,2022-05-01,202086.0,Prueba
+Turista,2022-06-01,219846.0,Prueba
+Turista,2022-07-01,251652.0,Prueba
+Turista,2022-08-01,236157.0,Prueba
+Turista,2022-09-01,208702.0,Prueba
+Turista,2022-10-01,236899.0,Prueba
+Turista,2022-11-01,270805.0,Prueba
+Turista,2022-12-01,320803.0,Prueba
+Turista,2023-01-01,183364.85,Prueba
+Turista,2023-02-01,147419.35,Prueba
+Turista,2023-03-01,192831.13,Prueba
+Turista,2023-04-01,201509.81,Prueba
+Turista,2023-05-01,152914.15,Prueba
+Turista,2023-06-01,161376.25,Prueba
+Turista,2023-07-01,179188.1,Prueba
+Turista,2023-08-01,191451.15,Prueba
+Turista,2023-09-01,159058.9,Prueba
+Turista,2023-10-01,118585.8,Prueba
+Turista,2023-11-01,202092.37,Prueba
+Turista,2023-12-01,234187.9,Prueba
+Turista,2024-01-01,214519.4,Prueba
+Turista,2024-02-01,189941.65,Prueba
+Turista,2024-03-01,241340.51,Prueba
+Turista,2024-04-01,176258.64,Prueba
+Turista,2024-05-01,171460.83,Prueba
+Turista,2024-06-01,171274.57,Prueba
+Turista,2024-07-01,205982.17,Prueba
+Turista,2024-08-01,210722.19,Prueba
+Turista,2024-09-01,160371.48,Prueba
+Turista,2024-10-01,195543.36,Prueba
+Turista,2024-11-01,228181.37,Prueba
+Turista,2024-12-01,275312.34,Prueba
+Turista,2025-01-01,215732.64,Prueba
+Turista,2025-02-01,211483.43,Prueba
+Turista,2025-03-01,214378.35,Prueba
+Turista,2025-04-01,222748.63,Prueba
+Turista,2025-05-01,183967.01,Prueba
+Turista,2025-06-01,186922.56,Prueba
+Turista,2025-07-01,219678.55,Prueba
+Turista,2025-08-01,212947.1,Prueba
+Turista,2025-09-01,159752.83,Prueba
+Turista,2025-10-01,188991.5,Prueba
+Turista,2025-11-01,239682.3,Prueba
+Turista,2025-12-01,284612.22,Prueba
+Turista,2026-01-01,236979.53,Prueba
+Turista,2026-02-01,190178.69,Prueba
+Turista,2026-03-01,233477.93,Prueba
+Turista,2026-04-01,206519.62,Prueba
+Turista,2026-05-01,177765.25,Prueba
+Turista,2026-06-01,185759.07,Prueba
+Turista + Excursionista,2009-01-01,149944.03,Entrenamiento
+Turista + Excursionista,2009-02-01,127303.69,Entrenamiento
+Turista + Excursionista,2009-03-01,158795.67,Entrenamiento
+Turista + Excursionista,2009-04-01,172013.47,Entrenamiento
+Turista + Excursionista,2009-05-01,124559.52,Entrenamiento
+Turista + Excursionista,2009-06-01,151442.8,Entrenamiento
+Turista + Excursionista,2009-07-01,137616.95,Entrenamiento
+Turista + Excursionista,2009-08-01,179344.04,Entrenamiento
+Turista + Excursionista,2009-09-01,132791.13,Entrenamiento
+Turista + Excursionista,2009-10-01,153153.61,Entrenamiento
+Turista + Excursionista,2009-11-01,173623.27,Entrenamiento
+Turista + Excursionista,2009-12-01,219594.65,Entrenamiento
+Turista + Excursionista,2010-01-01,162333.27,Entrenamiento
+Turista + Excursionista,2010-02-01,132527.46,Entrenamiento
+Turista + Excursionista,2010-03-01,163351.09,Entrenamiento
+Turista + Excursionista,2010-04-01,170870.91,Entrenamiento
+Turista + Excursionista,2010-05-01,141291.61,Entrenamiento
+Turista + Excursionista,2010-06-01,155468.95,Entrenamiento
+Turista + Excursionista,2010-07-01,199667.83,Entrenamiento
+Turista + Excursionista,2010-08-01,183931.03,Entrenamiento
+Turista + Excursionista,2010-09-01,130760.35,Entrenamiento
+Turista + Excursionista,2010-10-01,157632.12,Entrenamiento
+Turista + Excursionista,2010-11-01,179538.34,Entrenamiento
+Turista + Excursionista,2010-12-01,227411.05,Entrenamiento
+Turista + Excursionista,2011-01-01,169708.56,Entrenamiento
+Turista + Excursionista,2011-02-01,139869.87,Entrenamiento
+Turista + Excursionista,2011-03-01,169957.79,Entrenamiento
+Turista + Excursionista,2011-04-01,191655.76,Entrenamiento
+Turista + Excursionista,2011-05-01,145923.55,Entrenamiento
+Turista + Excursionista,2011-06-01,163014.47,Entrenamiento
+Turista + Excursionista,2011-07-01,200521.0,Entrenamiento
+Turista + Excursionista,2011-08-01,174775.49,Entrenamiento
+Turista + Excursionista,2011-09-01,141183.84,Entrenamiento
+Turista + Excursionista,2011-10-01,152049.08,Entrenamiento
+Turista + Excursionista,2011-11-01,187320.08,Entrenamiento
+Turista + Excursionista,2011-12-01,243735.11,Entrenamiento
+Turista + Excursionista,2012-01-01,177125.96,Entrenamiento
+Turista + Excursionista,2012-02-01,147819.44,Entrenamiento
+Turista + Excursionista,2012-03-01,186237.21,Entrenamiento
+Turista + Excursionista,2012-04-01,182891.24,Entrenamiento
+Turista + Excursionista,2012-05-01,152137.51,Entrenamiento
+Turista + Excursionista,2012-06-01,173240.56,Entrenamiento
+Turista + Excursionista,2012-07-01,199340.37,Entrenamiento
+Turista + Excursionista,2012-08-01,170666.4,Entrenamiento
+Turista + Excursionista,2012-09-01,147847.53,Entrenamiento
+Turista + Excursionista,2012-10-01,167995.44,Entrenamiento
+Turista + Excursionista,2012-11-01,195400.07,Entrenamiento
+Turista + Excursionista,2012-12-01,238839.75,Entrenamiento
+Turista + Excursionista,2013-01-01,170858.7,Entrenamiento
+Turista + Excursionista,2013-02-01,140163.9,Entrenamiento
+Turista + Excursionista,2013-03-01,217092.56,Entrenamiento
+Turista + Excursionista,2013-04-01,179526.04,Entrenamiento
+Turista + Excursionista,2013-05-01,179243.66,Entrenamiento
+Turista + Excursionista,2013-06-01,197164.99,Entrenamiento
+Turista + Excursionista,2013-07-01,211596.02,Entrenamiento
+Turista + Excursionista,2013-08-01,197150.94,Entrenamiento
+Turista + Excursionista,2013-09-01,163867.06,Entrenamiento
+Turista + Excursionista,2013-10-01,167624.47,Entrenamiento
+Turista + Excursionista,2013-11-01,202965.02,Entrenamiento
+Turista + Excursionista,2013-12-01,262449.4,Entrenamiento
+Turista + Excursionista,2014-01-01,219460.35,Entrenamiento
+Turista + Excursionista,2014-02-01,173476.25,Entrenamiento
+Turista + Excursionista,2014-03-01,200137.33,Entrenamiento
+Turista + Excursionista,2014-04-01,229359.13,Entrenamiento
+Turista + Excursionista,2014-05-01,190264.56,Entrenamiento
+Turista + Excursionista,2014-06-01,200093.47,Entrenamiento
+Turista + Excursionista,2014-07-01,237558.59,Entrenamiento
+Turista + Excursionista,2014-08-01,225101.63,Entrenamiento
+Turista + Excursionista,2014-09-01,187684.78,Entrenamiento
+Turista + Excursionista,2014-10-01,223650.87,Entrenamiento
+Turista + Excursionista,2014-11-01,248017.61,Entrenamiento
+Turista + Excursionista,2014-12-01,325372.73,Entrenamiento
+Turista + Excursionista,2015-01-01,244120.95,Entrenamiento
+Turista + Excursionista,2015-02-01,197207.25,Entrenamiento
+Turista + Excursionista,2015-03-01,249587.41,Entrenamiento
+Turista + Excursionista,2015-04-01,247561.51,Entrenamiento
+Turista + Excursionista,2015-05-01,226414.61,Entrenamiento
+Turista + Excursionista,2015-06-01,245382.69,Entrenamiento
+Turista + Excursionista,2015-07-01,253035.18,Entrenamiento
+Turista + Excursionista,2015-08-01,245666.16,Entrenamiento
+Turista + Excursionista,2015-09-01,206700.77,Entrenamiento
+Turista + Excursionista,2015-10-01,227800.28,Entrenamiento
+Turista + Excursionista,2015-11-01,245184.01,Entrenamiento
+Turista + Excursionista,2015-12-01,329225.24,Entrenamiento
+Turista + Excursionista,2016-01-01,262106.63,Entrenamiento
+Turista + Excursionista,2016-02-01,214638.73,Entrenamiento
+Turista + Excursionista,2016-03-01,322030.33,Entrenamiento
+Turista + Excursionista,2016-04-01,211444.92,Entrenamiento
+Turista + Excursionista,2016-05-01,223932.93,Entrenamiento
+Turista + Excursionista,2016-06-01,226287.3,Entrenamiento
+Turista + Excursionista,2016-07-01,269012.24,Entrenamiento
+Turista + Excursionista,2016-08-01,258799.93,Entrenamiento
+Turista + Excursionista,2016-09-01,186819.31,Entrenamiento
+Turista + Excursionista,2016-10-01,249121.26,Entrenamiento
+Turista + Excursionista,2016-11-01,251531.98,Entrenamiento
+Turista + Excursionista,2016-12-01,321301.19,Entrenamiento
+Turista + Excursionista,2017-01-01,259641.61,Entrenamiento
+Turista + Excursionista,2017-02-01,233718.23,Entrenamiento
+Turista + Excursionista,2017-03-01,294444.48,Entrenamiento
+Turista + Excursionista,2017-04-01,377828.73,Entrenamiento
+Turista + Excursionista,2017-05-01,243741.79,Entrenamiento
+Turista + Excursionista,2017-06-01,247853.41,Entrenamiento
+Turista + Excursionista,2017-07-01,291574.27,Entrenamiento
+Turista + Excursionista,2017-08-01,274293.59,Entrenamiento
+Turista + Excursionista,2017-09-01,213696.6,Entrenamiento
+Turista + Excursionista,2017-10-01,239055.67,Entrenamiento
+Turista + Excursionista,2017-11-01,275693.42,Entrenamiento
+Turista + Excursionista,2017-12-01,356109.5,Entrenamiento
+Turista + Excursionista,2018-01-01,303819.22,Entrenamiento
+Turista + Excursionista,2018-02-01,251666.99,Entrenamiento
+Turista + Excursionista,2018-03-01,393020.78,Entrenamiento
+Turista + Excursionista,2018-04-01,308239.86,Entrenamiento
+Turista + Excursionista,2018-05-01,277750.08,Entrenamiento
+Turista + Excursionista,2018-06-01,311280.35,Entrenamiento
+Turista + Excursionista,2018-07-01,337300.59,Entrenamiento
+Turista + Excursionista,2018-08-01,352316.57,Entrenamiento
+Turista + Excursionista,2018-09-01,272777.07,Entrenamiento
+Turista + Excursionista,2018-10-01,282172.21,Entrenamiento
+Turista + Excursionista,2018-11-01,309687.64,Entrenamiento
+Turista + Excursionista,2018-12-01,393729.49,Entrenamiento
+Turista + Excursionista,2019-01-01,357645.75,Entrenamiento
+Turista + Excursionista,2019-02-01,285350.91,Entrenamiento
+Turista + Excursionista,2019-03-01,359757.99,Entrenamiento
+Turista + Excursionista,2019-04-01,388538.55,Entrenamiento
+Turista + Excursionista,2019-05-01,299297.34,Entrenamiento
+Turista + Excursionista,2019-06-01,333161.56,Entrenamiento
+Turista + Excursionista,2019-07-01,365333.69,Entrenamiento
+Turista + Excursionista,2019-08-01,365512.75,Entrenamiento
+Turista + Excursionista,2019-09-01,298250.08,Entrenamiento
+Turista + Excursionista,2019-10-01,294503.99,Entrenamiento
+Turista + Excursionista,2019-11-01,335783.93,Entrenamiento
+Turista + Excursionista,2019-12-01,449114.07,Entrenamiento
+Turista + Excursionista,2020-01-01,388222.6,Entrenamiento
+Turista + Excursionista,2020-02-01,317917.98,Entrenamiento
+Turista + Excursionista,2020-03-01,155415.58,Entrenamiento
+Turista + Excursionista,2020-04-01,10039.0,Entrenamiento
+Turista + Excursionista,2020-05-01,9779.0,Entrenamiento
+Turista + Excursionista,2020-06-01,11817.0,Entrenamiento
+Turista + Excursionista,2020-07-01,13484.0,Entrenamiento
+Turista + Excursionista,2020-08-01,15357.0,Entrenamiento
+Turista + Excursionista,2020-09-01,12572.49,Entrenamiento
+Turista + Excursionista,2020-10-01,16680.78,Entrenamiento
+Turista + Excursionista,2020-11-01,52865.0,Entrenamiento
+Turista + Excursionista,2020-12-01,55620.0,Entrenamiento
+Turista + Excursionista,2021-01-01,89960.0,Entrenamiento
+Turista + Excursionista,2021-02-01,52605.0,Entrenamiento
+Turista + Excursionista,2021-03-01,85017.4,Entrenamiento
+Turista + Excursionista,2021-04-01,59743.19,Prueba
+Turista + Excursionista,2021-05-01,73873.0,Prueba
+Turista + Excursionista,2021-06-01,95146.0,Prueba
+Turista + Excursionista,2021-07-01,97594.66,Prueba
+Turista + Excursionista,2021-08-01,72327.0,Prueba
+Turista + Excursionista,2021-09-01,67023.0,Prueba
+Turista + Excursionista,2021-10-01,83528.0,Prueba
+Turista + Excursionista,2021-11-01,98578.0,Prueba
+Turista + Excursionista,2021-12-01,223569.13,Prueba
+Turista + Excursionista,2022-01-01,134303.0,Prueba
+Turista + Excursionista,2022-02-01,193903.6,Prueba
+Turista + Excursionista,2022-03-01,227886.0,Prueba
+Turista + Excursionista,2022-04-01,292648.0,Prueba
+Turista + Excursionista,2022-05-01,260013.0,Prueba
+Turista + Excursionista,2022-06-01,269366.0,Prueba
+Turista + Excursionista,2022-07-01,306246.0,Prueba
+Turista + Excursionista,2022-08-01,297602.0,Prueba
+Turista + Excursionista,2022-09-01,246464.0,Prueba
+Turista + Excursionista,2022-10-01,281938.0,Prueba
+Turista + Excursionista,2022-11-01,318693.0,Prueba
+Turista + Excursionista,2022-12-01,400266.0,Prueba
+Turista + Excursionista,2023-01-01,258166.19,Prueba
+Turista + Excursionista,2023-02-01,198751.86,Prueba
+Turista + Excursionista,2023-03-01,251839.5,Prueba
+Turista + Excursionista,2023-04-01,283179.26,Prueba
+Turista + Excursionista,2023-05-01,213191.04,Prueba
+Turista + Excursionista,2023-06-01,224580.17,Prueba
+Turista + Excursionista,2023-07-01,257626.95,Prueba
+Turista + Excursionista,2023-08-01,264514.09,Prueba
+Turista + Excursionista,2023-09-01,218486.48,Prueba
+Turista + Excursionista,2023-10-01,164499.39,Prueba
+Turista + Excursionista,2023-11-01,255894.28,Prueba
+Turista + Excursionista,2023-12-01,327097.61,Prueba
+Turista + Excursionista,2024-01-01,292731.87,Prueba
+Turista + Excursionista,2024-02-01,265990.67,Prueba
+Turista + Excursionista,2024-03-01,322310.39,Prueba
+Turista + Excursionista,2024-04-01,240988.82,Prueba
+Turista + Excursionista,2024-05-01,238807.95,Prueba
+Turista + Excursionista,2024-06-01,234781.23,Prueba
+Turista + Excursionista,2024-07-01,266974.96,Prueba
+Turista + Excursionista,2024-08-01,282101.83,Prueba
+Turista + Excursionista,2024-09-01,215658.81,Prueba
+Turista + Excursionista,2024-10-01,249665.7,Prueba
+Turista + Excursionista,2024-11-01,302674.08,Prueba
+Turista + Excursionista,2024-12-01,361749.69,Prueba
+Turista + Excursionista,2025-01-01,289543.6,Prueba
+Turista + Excursionista,2025-02-01,254428.89,Prueba
+Turista + Excursionista,2025-03-01,278538.25,Prueba
+Turista + Excursionista,2025-04-01,300287.69,Prueba
+Turista + Excursionista,2025-05-01,247981.93,Prueba
+Turista + Excursionista,2025-06-01,254190.1,Prueba
+Turista + Excursionista,2025-07-01,283388.7,Prueba
+Turista + Excursionista,2025-08-01,293780.52,Prueba
+Turista + Excursionista,2025-09-01,218069.51,Prueba
+Turista + Excursionista,2025-10-01,255920.93,Prueba
+Turista + Excursionista,2025-11-01,310585.52,Prueba
+Turista + Excursionista,2025-12-01,365573.02,Prueba
+Turista + Excursionista,2026-01-01,300664.08,Prueba
+Turista + Excursionista,2026-02-01,236844.11,Prueba
+Turista + Excursionista,2026-03-01,291160.37,Prueba
+Turista + Excursionista,2026-04-01,260951.05,Prueba
+Turista + Excursionista,2026-05-01,241312.3,Prueba
+Turista + Excursionista,2026-06-01,245687.58,Prueba

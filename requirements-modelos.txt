@@ -1,0 +1,4 @@
+# Solo para regenerar los CSV de modelos con scripts/exportar_modelos.py (la app no los necesita).
+-r requirements.txt
+numpy>=1.26
+statsmodels>=0.14

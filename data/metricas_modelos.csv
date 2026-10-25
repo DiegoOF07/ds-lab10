@@ -1,0 +1,10 @@
+Serie,Modelo,MAE,RMSE
+Total,Seasonal Naïve,235730.91,253203.39
+Total,Holt-Winters,178639.4,197742.23
+Total,SARIMA,100904.37,112078.03
+Turista,Seasonal Naïve,155607.78,164460.37
+Turista,Holt-Winters,111365.99,121527.98
+Turista,SARIMA,53627.34,58865.5
+Turista + Excursionista,Seasonal Naïve,207321.64,219663.87
+Turista + Excursionista,Holt-Winters,163878.71,177765.85
+Turista + Excursionista,SARIMA,83404.74,87818.85
