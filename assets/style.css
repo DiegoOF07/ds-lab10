@@ -16,6 +16,7 @@ body { margin: 0; background: var(--fondo); color: var(--texto);
 .pagina { max-width: 1400px; margin: 0 auto; padding: 0 20px 32px; }
 .encabezado { background: var(--primario); color: #fff; margin: 0 -20px 20px; padding: 22px 28px; }
 .encabezado h1 { margin: 0; font-size: 24px; font-weight: 700; }
+.subtitulo { margin: 6px 0 0; font-size: 14px; color: #CFE3E6; }
 .tarjeta { background: var(--tarjeta); border: 1px solid var(--borde); border-radius: 10px;
            padding: 18px 20px; }
 .filtros { display: flex; flex-wrap: wrap; gap: 20px 36px; align-items: flex-start; margin-bottom: 14px; }
@@ -27,8 +28,11 @@ body { margin: 0; background: var(--fondo); color: var(--texto);
                font-size: 14px !important; text-transform: none !important; letter-spacing: 0 !important;
                color: var(--texto) !important; font-weight: 500 !important; cursor: pointer; }
 .chips input, .segmentado input { accent-color: var(--seleccion); width: 16px; height: 16px; }
-.grid { display: grid; grid-template-columns: 1.35fr 1fr; gap: 16px; }
-@media (max-width: 1000px) { .grid { grid-template-columns: 1fr; } }
+/* flex en lugar de grid para que una gráfica oculta libere su espacio */
+.grid { display: flex; flex-wrap: wrap; gap: 16px; }
+.grid > .tarjeta { flex: 1 1 0; min-width: 420px; }
+.grid > .tarjeta.ancha { flex-grow: 1.35; }
+@media (max-width: 1000px) { .grid > .tarjeta { min-width: 100%; } }
 .tarjeta-cab { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; }
 .tarjeta h2 { font-size: 17px; margin: 0 0 4px; font-weight: 600; }
 .ayuda { margin: 0 0 8px; color: var(--texto-sec); font-size: 13.5px; }
@@ -41,6 +45,18 @@ body { margin: 0; background: var(--fondo); color: var(--texto);
 .boton { background: #fff; border: 1px solid var(--seleccion); color: var(--seleccion); border-radius: 8px;
          padding: 7px 12px; font: 600 13px Inter, sans-serif; cursor: pointer; white-space: nowrap; }
 .boton:hover { background: var(--seleccion); color: #fff; }
+.pestanas { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; border: none !important; }
+.pestana { flex: 0 0 auto !important; width: auto !important; background: var(--tarjeta) !important;
+           border: 1px solid var(--borde) !important; border-radius: 8px; padding: 10px 18px !important;
+           font-weight: 600; font-size: 14.5px; color: var(--primario) !important; cursor: pointer; }
+.pestana:hover { border-color: var(--seleccion) !important; }
+.pestana--activa { background: var(--seleccion) !important; border-color: var(--seleccion) !important;
+                   color: #fff !important; }
+.selector { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 16px; margin-bottom: 12px; }
+.selector-tit { font-weight: 600; font-size: 13px; color: var(--texto-sec); text-transform: uppercase;
+                letter-spacing: .04em; }
+.aviso-vacio:not(:empty) { flex-basis: 100%; background: var(--tarjeta); border: 1px dashed var(--neutro);
+                           border-radius: 8px; padding: 14px; color: var(--texto-sec); text-align: center; }
 .aviso { min-height: 0; margin-bottom: 12px; font-size: 14px; }
 .aviso:not(:empty) { background: #E6F4F2; border-left: 4px solid var(--seleccion); padding: 9px 14px;
                      border-radius: 6px; }
