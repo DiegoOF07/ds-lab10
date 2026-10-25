@@ -1,9 +1,10 @@
 from dash import Dash, dcc, html
 
 from comun import ANIOS, TIPOS, VIAS, tarjeta
-from pestanas import fronteras, mercados, panorama
+from pestanas import fronteras, guia, mercados, panorama, pronosticos
 
 app = Dash(__name__, title="Observatorio de Turismo · Guatemala")
+server = app.server  # para desplegar con gunicorn (gunicorn app:server)
 
 app.index_string = """<!DOCTYPE html>
 <html><head>{%metas%}<title>{%title%}</title>{%favicon%}{%css%}
@@ -15,6 +16,8 @@ PESTANAS = [
     ("panorama", "Panorama", panorama),
     ("mercados", "Mercados de origen", mercados),
     ("fronteras", "Fronteras y vías", fronteras),
+    ("pronosticos", "Pronósticos y modelos", pronosticos),
+    ("guia", "Guía", guia),
 ]
 
 app.layout = html.Div(className="pagina", children=[
