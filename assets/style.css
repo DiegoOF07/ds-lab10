@@ -76,3 +76,25 @@ body { margin: 0; background: var(--fondo); color: var(--texto);
 .rc-slider-handle { border-color: var(--seleccion) !important; }
 .dash-slider-range { background-color: var(--seleccion) !important; }
 .dash-slider-thumb { background-color: var(--seleccion) !important; border-color: var(--seleccion) !important; }
+/* Pestaña Pronósticos */
+.nota-filtros { flex-basis: 100%; margin-top: 0; }
+.filtro .Select-control, .filtro .dash-dropdown { min-width: 240px; font-size: 14px; }
+.tabla { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+.tabla th { text-align: left; font-size: 12.5px; color: var(--texto-sec); font-weight: 600;
+            border-bottom: 2px solid var(--borde); padding: 8px 10px; }
+.tabla td { border-bottom: 1px solid var(--borde); padding: 9px 10px; vertical-align: top; }
+.tabla .num { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.tabla .col-modelo { font-weight: 600; white-space: nowrap; }
+.tabla tr.mejor td { background: #F0F5F6; }
+.etiqueta { display: inline-block; margin-left: 8px; padding: 1px 8px; border-radius: 10px; font-size: 11.5px;
+            font-weight: 600; color: #fff; background: var(--primario); }
+.limitaciones ul { margin: 6px 0 0; padding-left: 20px; font-size: 14px; line-height: 1.5; }
+.limitaciones li { margin-bottom: 6px; }
+/* Pestaña Guía */
+.guia-col { flex: 1 1 0; min-width: 420px; display: flex; flex-direction: column; gap: 16px; }
+@media (max-width: 1000px) { .guia-col { min-width: 100%; } }
+.guia dl { margin: 6px 0 0; }
+.guia dt { font-weight: 600; color: var(--primario); margin-top: 12px; }
+.guia dd { margin: 3px 0 0; font-size: 14px; line-height: 1.5; }
+.guia ol, .guia ul { margin: 6px 0 0; padding-left: 20px; font-size: 14px; line-height: 1.5; }
+.guia li { margin-bottom: 8px; }
