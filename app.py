@@ -1,7 +1,7 @@
 from dash import Dash, dcc, html
 
 from comun import ANIOS, TIPOS, VIAS, tarjeta
-from pestanas import panorama
+from pestanas import mercados, panorama
 
 app = Dash(__name__, title="Observatorio de Turismo · Guatemala")
 
@@ -13,6 +13,7 @@ app.index_string = """<!DOCTYPE html>
 
 PESTANAS = [
     ("panorama", "Panorama", panorama),
+    ("mercados", "Mercados de origen", mercados),
 ]
 
 app.layout = html.Div(className="pagina", children=[

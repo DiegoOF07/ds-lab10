@@ -17,11 +17,17 @@ COLOR = {
     "tarjeta": "#FFFFFF",
     "borde": "#E1E5E9",
 }
+# Colores de identidad por tipo de viajero, validados para daltonismo en este orden.
+TIPO_COLOR = {"Turista": "#2A78D6", "Excursionista": "#D55181", "Cruceristas": "#7B5FC4", "Viajero": "#8A7A1E"}
 FUENTE = "Inter, 'Segoe UI', Roboto, Arial, sans-serif"
 MESES = ["Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dic"]
 
 DATOS = Path(__file__).parent / "data"
 df = pd.read_csv(DATOS / "viajeros_agregado.csv", parse_dates=["Fecha"])
+# Algunos países aparecen con distinta capitalización según el año ("Antigua Y Barbuda").
+_canon = df.groupby(df["Pais"].str.lower())["Pais"].agg(lambda s: s.value_counts().idxmax())
+df["Pais"] = df["Pais"].str.lower().map(_canon)
+df = df.merge(pd.read_csv(DATOS / "paises_iso.csv"), on="Pais", how="left")
 ANIOS = sorted(int(a) for a in df["Año"].unique())
 TIPOS = ["Turista", "Excursionista", "Cruceristas", "Viajero"]
 VIAS = ["Aérea", "Terrestre", "Marítima"]
