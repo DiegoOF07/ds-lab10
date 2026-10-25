@@ -1,7 +1,8 @@
 import plotly.graph_objects as go
 from dash import Input, Output, State, callback, callback_context, dcc, html, no_update
 
-from comun import COLOR, base_layout, figura_vacia, filtrar, id_grafica, selector_graficas, tarjeta
+from comun import (ANIOS, COLOR, MESES, base_layout, figura_vacia, filtrar, fmt, id_grafica,
+                   selector_graficas, tarjeta)
 
 
 def layout():
@@ -9,8 +10,10 @@ def layout():
         dcc.Store(id="sel-anio", data=None),
         dcc.Store(id="sel-region", data=None),
 
-        selector_graficas("panorama", [("tendencia", "1. Evolución"), ("mercados", "2. Origen")]),
+        selector_graficas("panorama", [("tendencia", "1. Evolución"), ("mercados", "2. Origen"),
+                                       ("estacionalidad", "3. Estacionalidad")]),
         html.Div(id="aviso-seleccion", className="aviso"),
+        html.Div(id="kpis", className="kpis"),
 
         html.Div(className="grid", children=[
             tarjeta(className="tarjeta ancha", id=id_grafica("panorama", "tendencia"), children=[
@@ -42,27 +45,71 @@ def layout():
                 html.P("Cifras observadas (no estimadas). El origen se basa en el país de residencia declarado.",
                        className="nota"),
             ]),
+            tarjeta(className="tarjeta completa", id=id_grafica("panorama", "estacionalidad"), children=[
+                html.Div(className="tarjeta-cab", children=[
+                    html.Div([
+                        html.H2(id="titulo-estacionalidad"),
+                        html.P("Cada celda es un mes; más oscuro significa más viajeros. Haga clic en una celda "
+                               "para seleccionar ese año en los gráficos 1 y 2. «% del año» compara meses entre "
+                               "años de distinto tamaño.", className="ayuda"),
+                    ]),
+                    dcc.RadioItems(id="medida-estacionalidad",
+                                   options=[{"label": "Viajeros", "value": "abs"},
+                                            {"label": "% del año", "value": "pct"}],
+                                   value="abs", inline=True, className="segmentado"),
+                ]),
+                dcc.Graph(id="g-estacionalidad", config={"displayModeBar": False}),
+                html.P("Cifras observadas. Las celdas vacías de 2026 corresponden a meses aún sin datos. Los meses "
+                       "de 2020 y 2021 están afectados por el cierre de fronteras.", className="nota"),
+            ]),
         ]),
     ])
+
+
+def kpi(titulo, valor, detalle):
+    return html.Div(className="kpi", children=[
+        html.Span(titulo, className="kpi-tit"),
+        html.Span(valor, className="kpi-valor"),
+        html.Span(detalle, className="kpi-detalle"),
+    ])
+
+
+def cifra(n):
+    return f"{n / 1e6:.1f} millones" if n >= 1e6 else fmt(n)
+
+
+def comparar(base, anio, anio_ref):
+    """Variación de anio frente a anio_ref usando solo los meses con datos en anio (2026 es parcial)."""
+    actual = base[base["Año"] == anio]
+    meses = actual["Mes"].unique()
+    ref = base[(base["Año"] == anio_ref) & base["Mes"].isin(meses)]["Viajeros"].sum()
+    if actual.empty or ref == 0:
+        return None, ""
+    parcial = f" (ene a {MESES[max(meses) - 1].lower()})" if len(meses) < 12 else ""
+    return actual["Viajeros"].sum() / ref * 100, parcial
 
 
 @callback(
     Output("sel-anio", "data"),
     Input("g-tendencia", "clickData"),
+    Input("g-estacionalidad", "clickData"),
     Input("granularidad", "value"),
     Input("f-anios", "value"),
     State("sel-anio", "data"),
     prevent_initial_call=True,
 )
-def seleccionar_anio(click, gran, rango, actual):
+def seleccionar_anio(click, click_estac, gran, rango, actual):
     disparo = callback_context.triggered_id
     if disparo == "g-tendencia" and click:
         x = click["points"][0]["x"]
         anio = int(str(x)[:4])  # anual: 2019, mensual: "2019-05-01"
         return None if anio == actual else anio  # segundo clic deselecciona
+    if disparo == "g-estacionalidad" and click_estac:
+        anio = int(click_estac["points"][0]["y"])
+        return None if anio == actual else anio
     if actual is not None and not (rango[0] <= actual <= rango[1]):
         return None
-    return actual if disparo != "g-tendencia" else no_update
+    return actual if disparo not in ("g-tendencia", "g-estacionalidad") else no_update
 
 
 @callback(
@@ -201,3 +248,79 @@ def aviso(anio, region):
     return [html.Span("Selección activa: ", className="aviso-tit"), " · ".join(partes),
             html.Span(" (haga clic de nuevo en el año o use «Todas las regiones» para quitarla)",
                       className="aviso-sec")]
+
+
+@callback(
+    Output("kpis", "children"),
+    Input("f-anios", "value"), Input("f-tipos", "value"), Input("f-vias", "value"),
+)
+def indicadores(rango, tipos, vias):
+    d = filtrar(rango, tipos, vias)
+    if d.empty:
+        return html.P("No hay datos para esta combinación de filtros.", className="kpi-vacio")
+    # Las comparaciones usan todo el historial para que 2019 sea la referencia aunque quede fuera del periodo.
+    base = filtrar((ANIOS[0], ANIOS[-1]), tipos, vias)
+    fin = rango[1]
+
+    sin_datos = "No hay registros suficientes para comparar con estos filtros."
+    total = kpi("Viajeros en el periodo", cifra(d["Viajeros"].sum()),
+                f"Año {fin}" if rango[0] == fin else f"De {rango[0]} a {fin}")
+
+    if fin <= 2019:
+        recuperacion = kpi("Recuperación frente a 2019", "No aplica",
+                           "Elija un periodo que termine después de 2019.")
+    else:
+        pct, parcial = comparar(base, fin, 2019)
+        recuperacion = kpi("Recuperación frente a 2019", "Sin datos", sin_datos) if pct is None else \
+            kpi("Recuperación frente a 2019", f"{pct:.0f} %",
+                f"{fin}{parcial} respecto al mismo periodo de 2019. 100 % = mismo nivel.")
+
+    pct, parcial = comparar(base, fin, fin - 1)
+    if pct is None:
+        variacion = kpi("Variación anual", "Sin datos", sin_datos)
+    else:
+        variacion = kpi("Variación anual", f"{pct - 100:+.1f} %", f"{fin}{parcial} frente a {fin - 1}")
+
+    promedio = d.groupby(["Año", "Mes"])["Viajeros"].sum().groupby("Mes").mean()
+    mes_pico = kpi("Mes de mayor afluencia", MESES[promedio.idxmax() - 1],
+                   f"Promedio de {cifra(promedio.max())} viajeros en el periodo")
+
+    return [total, recuperacion, variacion, mes_pico]
+
+
+@callback(
+    Output("g-estacionalidad", "figure"),
+    Output("titulo-estacionalidad", "children"),
+    Input("f-anios", "value"), Input("f-tipos", "value"), Input("f-vias", "value"),
+    Input("medida-estacionalidad", "value"), Input("sel-anio", "data"), Input("sel-region", "data"),
+)
+def fig_estacionalidad(rango, tipos, vias, medida, anio_sel, region):
+    d = filtrar(rango, tipos, vias)
+    titulo = "3. ¿En qué meses se concentra la demanda?" + (f" · {region}" if region else "")
+    if region:
+        d = d[d["Region"] == region]
+    if d.empty:
+        return figura_vacia("No hay datos para esta combinación de filtros."), titulo
+
+    tabla = d.pivot_table(index="Año", columns="Mes", values="Viajeros", aggfunc="sum")
+    tabla = tabla.reindex(columns=range(1, 13))
+    if medida == "pct":
+        tabla = tabla.div(tabla.sum(axis=1), axis=0) * 100
+        plantilla, barra = "%{z:.1f} % del año", dict(ticksuffix=" %")
+    else:
+        plantilla, barra = "%{z:,.0f} viajeros", dict(tickformat="~s")
+
+    anios = [str(a) for a in tabla.index]
+    fig = go.Figure(go.Heatmap(
+        z=tabla.values, x=MESES, y=anios, xgap=2, ygap=2, hoverongaps=False,
+        colorscale=[[0, "#E6F0F2"], [1, COLOR["primario"]]],
+        colorbar=dict(thickness=12, outlinewidth=0, tickfont=dict(color=COLOR["texto_sec"]), **barra),
+        hovertemplate=f"<b>%{{x}} %{{y}}</b><br>{plantilla}<extra></extra>",
+    ))
+    if anio_sel and str(anio_sel) in anios:
+        fig.add_shape(type="rect", xref="paper", x0=0, x1=1, y0=anios.index(str(anio_sel)) - 0.5,
+                      y1=anios.index(str(anio_sel)) + 0.5, line=dict(color=COLOR["seleccion"], width=3))
+    base_layout(fig, alto=max(300, 24 * len(anios) + 40))
+    fig.update_yaxes(type="category", autorange="reversed", showgrid=False)
+    fig.update_xaxes(side="top")
+    return fig, titulo
